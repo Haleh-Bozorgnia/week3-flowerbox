@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+main {
+  background-color: whitesmoke;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  height: 1900px;
+}
+/* ----------navigation-------------- */
+#navBar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+#navBar ul li {
+  /* background-color: rgb(243, 239, 239); */
+  margin: 20px;
+  padding: 5px;
+  background-color: #91b2b9;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#navBar {
+  max-height: 100px;
+  min-width: 500px;
+  background-color: #91b2b9;
+  margin: 20px;
+}
+
+/* ----------banner section-------------- */
+
+#banner {
+  /* max-height: 200px;
+    min-width: 500px; */
+  background-color: #f9dde0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+#img-banner {
+  /* max-height: 100%;*/
+  width: 60%;
+  object-fit: fill;
+  height: 250px;
+}
+
+#title {
+  color: #91b2b9;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 50px;
+  font-family: "DM Sans", sans-serif;
+  text-shadow: 2px 2px #ffffff;
+  padding-top: 50px;
+}
+#comment {
+  color: #f0a8bb;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px 0;
+  margin-left: 0%;
+  padding-left: 0;
+  width: 250px;
+  text-align: right;
+}
+/* ----------rows setting-------------- */
+
+#first-row,
+#second-row,
+#thirdrow {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+#one,
+#two,
+#three {
+  background-color: white;
+  height: 350px;
+  width: 350px;
+  margin: 20px;
+}
+img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+}
+p {
+  color: #91b2b9;
+  margin: 5px;
+  padding: 2px;
+}
+#item-text {
+  display: flex;
+  justify-content: space-between;
+}
+#price {
+  background-color: #f0a8bb;
+  color: #ffffff;
+  font-size: 12px;
+}
+#container ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+#container ul li {
+  padding: 5px;
+  background-color: rgb(235, 235, 240);
+  font-size: 8px;
+  color: darkgray;
+  border-radius: 2px;
+}
+/* ----------footer setting-------------- */
+
+#foot {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  height: 250px;
+  min-width: 500px;
+}
+
+#foot img {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 20px;
+  align-content: right;
+}
+
+#foot p {
+  color: #f0a8bb;
+  font-size: 10px;
+}
+#col-one,
+#col-two {
+  border-right: solid 2px rgb(237, 231, 231);
+}
+
+#col-two,
+#col-three {
+  color: rgb(132, 126, 126);
+  font-size: 10px;
+}
+#col-two ul li,
+#col-three ul li {
+  padding: 7px;
+  margin: 5px;
+  list-style: none;
+}
+#col-two p,
+#col-three p {
+  color: #91b2b9;
+  font-size: 15px;
+  font-weight: bold;
+}
+ion-icon {
+  color: #91b2b9;
+  align-content: center;
+  margin-left: 5px;
+  padding-left: 5px;
+}
